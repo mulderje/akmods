@@ -1,0 +1,200 @@
+[
+  {
+    "name": "ayaneo-platform",
+    "stream": "extra",
+    "homepage": "https://github.com/ShadowBlip/ayaneo-platform",
+    "description": "Linux drivers for AYANEO x86 handhelds",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/ayaneo-platform-kmod"
+  },
+  {
+    "name": "ayn-platform",
+    "stream": "extra",
+    "homepage": "https://github.com/ShadowBlip/ayn-platform",
+    "description": "Linux drivers for AYN x86 handhelds",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/ayn-platform-kmod"
+  },
+  {
+    "name": "bmi260",
+    "stream": "extra",
+    "homepage": "https://github.com/hhd-dev/bmi260",
+    "description": "kernel module driver for the Bosch BMI260 IMU",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/bmi260-kmod"
+  },
+  {
+    "name": "evdi",
+    "stream": "common",
+    "homepage": "https://www.displaylink.com",
+    "description": "kernel module required for use of displaylink",
+    "package_source": "negativo17",
+    "package_source_details": "fedora-multimedia",
+    "package_url": "https://negativo17.org/"
+  },
+  {
+    "name": "facetimehd",
+    "stream": "extra",
+    "homepage": "https://github.com/patjak/facetimehd/",
+    "description": "kernel module Linux driver for the FacetimeHD (Broadcom 1570) PCIe webcam",
+    "package_source": "COPR",
+    "package_source_details": "mulderje/facetimehd-kmod",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/mulderje/facetimehd-kmod/package/facetimehd-kmod"
+  },
+  {
+    "name": "framework-laptop",
+    "stream": "extra",
+    "homepage": "https://github.com/DHowett/framework-laptop-kmod",
+    "description": "A kernel module that exposes the Framework Laptop (13, 16)'s battery charge limit and LEDs to userspace",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/framework-laptop-kmod"
+  },
+  {
+    "name": "gcadapter_oc",
+    "stream": "extra",
+    "homepage": "https://github.com/hannesmann/gcadapter-oc-kmod",
+    "description": "kernel module for overclocking the Nintendo Wii U/Mayflash GameCube adapter",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/gcadapter_oc-kmod"
+  },
+  {
+    "name": "kvmfr",
+    "stream": "extra",
+    "homepage": "https://github.com/gnif/looking-glass",
+    "description": "KVM framebuffer relay kernel module for use with Looking Glass",
+    "package_source": "COPR",
+    "package_source_details": "hikariknight/looking-glass-kvmfr",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/hikariknight/looking-glass-kvmfr/package/kvmfr-kmod"
+  },
+  {
+    "name": "nct6687d",
+    "stream": "extra",
+    "homepage": "https://github.com/Fred78290/nct6687d",
+    "description": "Linux kernel module for Nuvoton NCT6687-R found on AMD B550 chipset motherboards",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/nct6687d-kmod"
+  },
+  {
+    "name": "nvidia",
+    "stream": "nvidia",
+    "homepage": "https://rpmfusion.org/Howto/NVIDIA",
+    "description": "nvidia GPU drivers built from rpmfusion",
+    "package_source": "RPMFusion",
+    "package_source_details": "nonfree",
+    "package_url": "https://rpmfusion.org/"
+  },
+  {
+    "name": "openrazer",
+    "stream": "common",
+    "homepage": "https://openrazer.github.io/",
+    "description": "kernel module adding additional features to Razer hardware",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/openrazer-kmod"
+  },
+  {
+    "name": "openrgb",
+    "stream": "extra",
+    "homepage": "https://gitlab.com/CalcProgrammer1/OpenRGB/-/raw/master/OpenRGB.patch",
+    "description": "kernel module with i2c-nct6775 and patched i2c-piix4 for use with OpenRGB",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/openrgb-kmod"
+  },
+  {
+    "name": "rtl8814au",
+    "stream": "extra",
+    "homepage": "https://github.com/morrownr/8814au",
+    "description": "Realtek RTL8814AU Driver",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/rtl8814au-kmod"
+  },
+  {
+    "name": "rtl88xxau",
+    "stream": "extra",
+    "homepage": "https://github.com/aircrack-ng/rtl8812au",
+    "description": "Realtek RTL8812AU/21AU and RTL8814AU driver",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/rtl88xxau-kmod"
+  },
+  {
+    "name": "ryzen-smu",
+    "stream": "extra",
+    "homepage": "https://gitlab.com/leogx9r/ryzen_smu",
+    "description": "A Linux kernel driver that exposes access to the SMU (System Management Unit) for certain AMD Ryzen Processors",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/ryzen-smu-kmod"
+  },
+  {
+    "name": "v4l2loopback",
+    "stream": "common",
+    "homepage": "https://github.com/umlaeute/v4l2loopback",
+    "description": "allows creating \"virtual video devices",
+    "package_source": "RPMFusion",
+    "package_source_details": "free",
+    "package_url": "https://rpmfusion.org/"
+  },
+  {
+    "name": "vhba",
+    "stream": "extra",
+    "homepage": "https://cdemu.sourceforge.io/",
+    "description": "Virtual SCSI host bus adapter driver",
+    "package_source": "COPR",
+    "package_source_details": "rok/cdemu",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/rok/cdemu/package/vhba-kmod/"
+  },
+  {
+    "name": "VirtualBox",
+    "stream": "extra",
+    "homepage": "http://www.virtualbox.org/wiki/VirtualBox",
+    "description": "Kernel module for VirtualBox",
+    "package_source": "RPMFusion",
+    "package_source_details": "free",
+    "package_url": "https://github.com/rpmfusion/VirtualBox-kmod/"
+  },
+  {
+    "name": "wl",
+    "stream": "common",
+    "homepage": "https://github.com/rpmfusion/broadcom-wl/",
+    "description": "support for some legacy broadcom wifi devices",
+    "package_source": "RPMFusion",
+    "package_source_details": "nonfree",
+    "package_url": "https://rpmfusion.org/"
+  },
+  {
+    "name": "xpadneo",
+    "stream": "common",
+    "homepage": "https://github.com/atar-axis/xpadneo",
+    "description": "xbox one controller bluetooth driver",
+    "package_source": "negativo17",
+    "package_source_details": "fedora-multimedia",
+    "package_url": "https://negativo17.org/"
+  },
+  {
+    "name": "xone",
+    "stream": "common",
+    "homepage": "https://github.com/BoukeHaarsma23/xonedo/",
+    "description": "xbox one controller USB wired/RF driver modified to work along-side xpad",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/xone-kmod"
+  },
+  {
+    "name": "zenergy",
+    "stream": "extra",
+    "homepage": "https://github.com/BoukeHaarsma23/zenergy",
+    "description": "Based on AMD_ENERGY driver, but with some jiffies added so non-root users can read it safely",
+    "package_source": "COPR",
+    "package_source_details": "ublue-os/akmods",
+    "package_url": "https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/package/zenergy-kmod"
+  }
+]
