@@ -32,6 +32,7 @@ jobs:
           - asus
           - fsync
           - fsync-ba
+          - bazzite
           - surface
           - coreos-stable
           - coreos-testing
@@ -42,10 +43,24 @@ jobs:
           - nvidia-open
           - zfs
         exclude:
+          - fedora_version: 41
+            kernel_flavor: coreos-stable
+          - fedora_version: 40
+            kernel_flavor: coreos-testing
+          - fedora_version: 41
+            kernel_flavor: fsync
+          - fedora_version: 41
+            kernel_flavor: fsync-ba
+          - fedora_version: 41
+            kernel_flavor: surface
+          - fedora_version: 40
+            kernel_flavor: bazzite
           - fedora_version: 39
             kernel_flavor: fsync
           - fedora_version: 39
             kernel_flavor: fsync-ba
+          - fedora_version: 39
+            kernel_flavor: bazzite
           - fedora_version: 39
             kernel_flavor: asus
           - fedora_version: 39
@@ -57,6 +72,8 @@ jobs:
           - kernel_flavor: fsync
             cfile_suffix: zfs
           - kernel_flavor: fsync-ba
+            cfile_suffix: zfs
+          - kernel_flavor: bazzite
             cfile_suffix: zfs
           - kernel_flavor: surface
             cfile_suffix: zfs
@@ -277,7 +294,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       # Sign container
-      - uses: sigstore/cosign-installer@v3.6.0
+      - uses: sigstore/cosign-installer@v3.7.0
         if: github.event_name != 'pull_request'
 
       - name: Sign container image
